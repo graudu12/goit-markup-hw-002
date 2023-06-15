@@ -180,6 +180,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo);
+  text-decoration: none;
 }
 .foot-logo-span {
   color: #f4f4fd;
