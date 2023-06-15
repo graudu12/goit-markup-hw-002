@@ -6,9 +6,6 @@ body {
 .list {
   list-style: none;
 }
-:root {
-  --head-logo: #4d5ae5;
-}
 .nav-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -16,7 +13,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--head-logo);
+  color: var(--logo);
 }
 .logo {
   color: var(--logo1);
