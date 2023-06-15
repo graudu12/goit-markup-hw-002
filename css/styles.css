@@ -138,3 +138,55 @@ body {
 .footer-list .logo {
   color: var(--botton-link);
 }
+/*studio page*/
+.feature-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--logo1);
+}
+.feature-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.section-about {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--logo1);
+}
+.team-list {
+  background-color: #f4f4fd;
+}
+.team-list-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--logo1);
+}
+.main-foot {
+  background-color: var(--logo1);
+}
+.foot-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo);
+}
+.foot-logo-span {
+  color: #f4f4fd;
+}
+.foot-text {
+  line-height: 1.5;
+  color: var(--botton-link);
+  letter-spacing: 0.02em;
+}
