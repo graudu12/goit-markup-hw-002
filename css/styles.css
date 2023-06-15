@@ -27,6 +27,7 @@ body {
   --logo1: #2e2f42;
   --nav-list: #404bbf;
   --botton-link: #f4f4fd;
+  --port-paragraf: #434455;
 }
 .nav-list {
   /* Body Medium */
@@ -97,7 +98,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--logo);
+  color: var(--botton-link);
   cursor: pointer;
 }
 .list .filter-link:hover {
@@ -108,4 +109,20 @@ body {
 .list .filter-link:focus {
   color: #ffffff;
   background-color: #404bbf;
+}
+.portfolio-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--logo1);
+}
+.portfolio-list-paragraf {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--port-paragraf);
+}
+.link {
+  text-decoration: none;
 }
