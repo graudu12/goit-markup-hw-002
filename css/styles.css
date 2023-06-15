@@ -6,8 +6,7 @@ body {
 .list {
   list-style: none;
 }
-.nav-logo,
-.logo {
+.nav-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -16,8 +15,7 @@ body {
   text-transform: uppercase;
   color: var(--logo);
 }
-.nav-logo,
-.logo1 {
+.logo {
   color: var(--logo1);
 }
 :root {
@@ -28,19 +26,11 @@ body {
   --port-paragraf: #434455;
 }
 .nav-list {
-  /* Body Medium */
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
-  /* identical to box height, or 150% */
   letter-spacing: 0.02em;
-
-  /* OCEAN */
-  color: var(--nav-list);
-  text-decoration: none;
+  color: var(--logo1);
 }
 
 .nav-list-links {
@@ -50,14 +40,20 @@ body {
   letter-spacing: 0.02em;
   color: var(--logo1);
 }
-.nav-list-links a:hover {
-  color: #ffffff;
+.link:hover {
+  color: #404bbf;
 }
-.nav-list-links a:hover {
-  color: #ffffff;
+.link:focus {
+  color: #404bbf;
 }
 .address-list {
   font-style: normal;
+}
+.address-list-title {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--port-paragraf);
 }
 .contacts {
   font-size: 16px;
@@ -129,7 +125,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--port-paragraf);
 }
-.link a {
+.link {
   text-decoration: none;
 }
 .footer-list {
