@@ -9,14 +9,12 @@ body {
 .nav-logo,
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo);
-  text-decoration: none;
 }
 .nav-logo,
 .logo1 {
@@ -58,7 +56,10 @@ body {
 .nav-list-links a:hover {
   color: #ffffff;
 }
-.contacts a {
+.address-list {
+  font-style: normal;
+}
+.contacts {
   color: #2e2f42;
 }
 .contacts a:hover {
@@ -123,6 +124,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--port-paragraf);
 }
-.link {
+.link a {
   text-decoration: none;
+}
+.footer-list {
+  background-color: var(--logo1);
+}
+.footer-list .logo {
+  color: var(--botton-link);
 }
