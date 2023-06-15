@@ -7,7 +7,18 @@ body {
   text-decoration: none;
 }
 .nav-logo,
-.logo1 {
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo);
+  text-decoration: none;
+}
+.nav-logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -16,21 +27,26 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo1);
-}
-.nav-logo,
-.logo2 {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--logo2);
+  text-decoration: none;
 }
 :root {
-  --logo1: #4d5ae5;
-  --logo2: #2e2f42;
+  --logo: #4d5ae5;
+  --logo1: #2e2f42;
+}
+.nav-list {
+  /* Body Medium */
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+
+  /* OCEAN */
+  color: #404bbf;
+  text-decoration: none;
 }
 .contacts a {
   color: #2e2f42;
