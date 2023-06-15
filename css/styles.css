@@ -3,8 +3,8 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-.nav-links a {
-  text-decoration: none;
+.list {
+  list-style: none;
 }
 .nav-logo,
 .logo {
@@ -25,6 +25,7 @@ body {
 :root {
   --logo: #4d5ae5;
   --logo1: #2e2f42;
+  --nav-list: #404bbf;
 }
 .nav-list {
   /* Body Medium */
@@ -41,8 +42,13 @@ body {
   color: var(--nav-list);
   text-decoration: none;
 }
-:root {
-  --nav-list: #404bbf;
+
+.nav-list-links {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--logo1);
 }
 .nav-list-links a:hover {
   color: #404bbf;
@@ -90,8 +96,4 @@ body {
 .filter .filter-link:hover {
   color: #434455;
   font-size: 16px;
-}
-ol,
-ul {
-  list-style-type: none;
 }
