@@ -55,6 +55,36 @@ body {
   font-size: 16px;
   color: #434455;
 }
+.section-top {
+  background-color: #2e2f42;
+}
+.section-top-text {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.section-top-button {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.section-top-button:hover {
+  background-color: #404bbf;
+}
+.section-top-button:focus {
+  background-color: #404bbf;
+}
+.filter-link {
+  background-color: #4d5ae5;
+}
 .filter .filter-link:hover {
   color: #434455;
   font-size: 16px;
