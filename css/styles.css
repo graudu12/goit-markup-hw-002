@@ -166,6 +166,9 @@ body {
   text-transform: capitalize;
   color: var(--logo1);
 }
+.name-list {
+  background-color: #ffffff;
+}
 .main-foot {
   background-color: var(--logo1);
 }
